@@ -29,13 +29,18 @@ h1 {
     margin: 5%;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
 }
 
 h2 {
     font-weight: bold; 
     text-decoration: underline;
 }
+
+h4 {
+    text-align: center;
+}
+
 .lgo {
     border-radius: 50%;
     float: right;
@@ -53,16 +58,22 @@ h2 {
 .sec-2 {
     border: 2px solid white;
     margin: 5%;
+    background-color: rgb(56, 54, 54);
+    color: white;
 }
 
 .sec-3 {
     border: 2px solid white;
     margin: 5%;
+    background-color: rgb(56, 54, 54);
+    color: white;
 }
 
 .sec-4 {
     border: 2px solid white;
     margin: 5%;
+    background-color: rgb(56, 54, 54);
+    color: white;
 }
 
 button {
