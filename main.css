@@ -3,18 +3,45 @@ body {
     color: white;
 }
 
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 2%;
+
+    padding: 3%;
+    
+}
+
+li {
+    display: inline;
+    background-color: white;
+    color: white;
+    font-size: large;
+}
+
 h1 {
     text-align: center;
     font-style: italic;
     margin: 5%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
+h2 {
+    font-weight: bold; 
+    text-decoration: underline;
+}
 .lgo {
-    border-image: round;
-}
-
-.loog {
-
+    border-radius: 50%;
+    float: right;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
 
 .sec-1 {
@@ -24,21 +51,31 @@ h1 {
 }
 
 .sec-2 {
-    border: 1px solid white;
+    border: 2px solid white;
     margin: 5%;
 }
 
 .sec-3 {
-    border: 1px solid white;
+    border: 2px solid white;
     margin: 5%;
 }
 
 .sec-4 {
-    border: 1px solid white;
+    border: 2px solid white;
     margin: 5%;
 }
 
 button {
     border: 2px solid white;
     margin: 2%;
+}
+
+.mge {
+    border: 5px solid white;
+    margin: 2%;
+    float: left;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
 }
